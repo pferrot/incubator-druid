@@ -111,6 +111,12 @@
                                 <argument>io.druid.extensions:simple-client-sslcontext</argument>
                                 <argument>-c</argument>
                                 <argument>io.druid.extensions:druid-basic-security</argument>
+                                <argument>-r</argument>
+                                <argument>http://repo.hortonworks.com/content/repositories/releases/</argument>
+                                <argument>-r</argument>
+                                <argument>http://repo.spring.io/plugins-release/</argument>
+                                <argument>-r</argument>
+                                <argument>http://maven.twttr.com/</argument>
                                 <argument>${druid.distribution.pulldeps.opts}</argument>
                             </arguments>
                         </configuration>
